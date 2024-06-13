@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventura Travel</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Adventura Travel</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="wave">
+      <video autoplay muted loop id="bg-video">
+        <source src="90877-629483574_medium.mp4" type="video/mp4">
+       
+      </video>
+      <div class="wave-content">
+        <h1><pre>  Welcome to Adventura Travel: 
+Where Unforgettable Adventures Await</pre></h1>
+        <br>
+        <p>At Adventura Travel, we specialize in crafting unique and unforgettable experiences that take you off the beaten path. Our mission is to offer adventurers like you the chance to explore the world in a way that’s both exciting and enriching. From unconventional trails to awe-inspiring destinations, we’re dedicated to making your travel dreams a reality.</p>
+        <a href="#contact" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>Our carefully curated packages are designed to cater to a variety of interests and adventure levels.
+         Whether you’re seeking the thrill of an Arctic expedition or the tranquility of a forest hike, Adventura Travel has something for everyone.</p>
+    </section>
+    <section class="gallery">
+      <div class="container">
+          <h2>Our Gallery</h2>
+          <div class="gallery-grid">
+              <div class="gallery-item"><img src="images/boats-4613735_640.jpg" alt="Image 1"></div>
+              <div class="gallery-item"><img src="images/canal-6519196_640.jpg" alt="Image 2"></div>
+              <div class="gallery-item"><img src="images/church-3592874_640.jpg" alt="Image 3"></div>
+              <div class="gallery-item"><img src="images/north-4718160_640.jpg" alt="Image 4"></div>
+              <div class="gallery-item"><img src="images/village-279013_640.jpg" alt="Image 6"></div>
+              <div class="gallery-item"><img src="images/tajikistan-4740798_640.jpg" alt="Image 5"></div>
+              <div class="gallery-item"><img src="images/rome-3804985_640.jpg" alt="Image 6"></div>
+              <div class="gallery-item"><img src="images/morocco-4030733_640.jpg" alt="Image 6"></div>
+              <div class="gallery-item"><img src="images/water-7991010_640.jpg" alt="Image 6"></div>
+              <div class="gallery-item"><img src="images/architecture-3220603_640.jpg" alt="Image 5"></div>
+              <div class="gallery-item"><img src="images/japan-1805865_640.jpg" alt="Image 6"></div>
+              <div class="gallery-item"><img src="images/ocean-4270251_1280.jpg" alt="Image 6"></div>
+             
+              
+          </div>
+      </div>
+  </section>
+  <section id="features">
+    <h2>
+      Why Choose Adventura Travel?
+    </h2>
+    <ul>
+      <li>     
+        Expert Guides: Our experienced guides are passionate about travel and dedicated to providing you with the best possible experience. Their local knowledge and expertise ensure you get the most out of every destination.
+        </li>
+        <li>
+          Tailored Experiences: We understand that every traveler is unique. That’s why we offer customizable packages to suit your specific interests and preferences. Whether you’re an avid hiker, a nature lover, or a cultural enthusiast, we have the perfect adventure for you.
+        </li>
+        <li>
+          Sustainable Travel: We are committed to responsible and sustainable travel practices. Our tours are designed to minimize environmental impact and support local communities, ensuring that our destinations remain pristine for future generations.
+        </li>
+    </ul>
+    <p>
+Join Adventura Travel and embark on the adventure of a lifetime. With our extensive range of tours and packages, the world is yours to explore. Let us help you create memories that will last a lifetime as you hike, trek, and discover the most beautiful places on Earth.
+    </p>
+  </section>
+    <section id="services" class="services">
+      <h2>Our Services</h2><br>
+      <div class="service-cards">
+        <div class="card">
+         
+          <h3>Hikes and Trails</h3><br>
+          <p>Embark on scenic hikes through some of the world's most beautiful landscapes. Whether you're traversing rugged mountain trails, exploring lush forests, or walking along serene coastal paths, our hiking packages offer something for every nature lover. Experience breathtaking vistas, diverse wildlife, and the tranquility of nature as you hike through carefully selected trails.</p>
+        </div>
+        <div class="card">
+          <h3>Foreign Tours</h3><br>
+          <p>Discover the rich cultures and iconic landmarks of countries around the globe. Our foreign tour packages take you to historic cities, cultural landmarks, and hidden gems in Europe, Asia, America, and Australia. Enjoy guided tours, local cuisine, and immersive experiences that provide a deeper understanding of the world’s diverse cultures and traditions.</p>
+        </div>
+        <div class="card">
+          <h3>National Park Safari</h3><br>
+          <p> Explore the natural wonders of the world's most famous national parks. From the geysers of Yellowstone to the vast savannas of the Serengeti, our national park safari packages offer exciting wildlife encounters and stunning landscapes. Join our expert guides on safaris that bring you up close to nature’s marvels, providing unforgettable experiences in some of the planet's most pristine environments.</p>
+        </div>
+        <div class="card">
+          <h3>Arctic Adventure</h3><br>
+          <p>Venture into the Arctic for an experience unlike any other. Witness the magical Aurora Borealis, traverse icy landscapes, and encounter unique Arctic wildlife. Our Arctic adventure packages include activities such as dog sledding, ice fishing, and visits to indigenous communities, offering an in-depth look at life in one of the world’s most extreme environments.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form action="form.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" name="message" required></textarea><br>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Adventura Travel | Designed by Krisha Gore. All rights reserved.</p>
+
+      
+      <ul class="socials">
+        <li>
+          <a href="mailto:krishagore777@gmail.com" target="_blank"> <img src="images/112-gmail_email_mail-64.webp" alt="Email me at"> </a>
+        </li>
+       
+        <li>
+          <a href="#" target="_blank"> <img src="images/317714_video_youtube_icon.png" alt="YouTube"> </a>
+        </li>
+        <li>
+          <a href="#" target="_blank"> <img src="images/6929237_instagram_icon.png" alt="Our instagram"> </a>
+        </li>
+      </ul>
+  </footer>
+
+
+</body>
+</html>
