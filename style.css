@@ -1,17 +1,16 @@
-html {
+html{
   scroll-behavior: smooth;
 }
-
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  background-color: #21266a;
+  background-color:#21266a;
   color: #ffffff;
 }
 
 header {
-  background: transparent;
+  background:transparent;
   color: #fff;
   padding: 1rem 0;
   position: fixed;
@@ -51,10 +50,10 @@ nav {
 
 .nav-links a:hover {
   color: #7dfbe8;
-  text-shadow: 1px 1px #11344a;
+  text-shadow:1px 1px #11344a;
 }
 
-.aurora {
+.aurora{
   height: 100vh;
   position: relative;
   display: flex;
@@ -77,6 +76,7 @@ nav {
 .aurora-content {
   z-index: 1;
   padding: 40px;
+  
 }
 
 .aurora h1 {
@@ -109,48 +109,45 @@ nav {
   margin: auto;
   overflow: hidden;
 }
-
 .gallery {
-  padding: 20px 0;
+padding: 20px 0;
 }
 
 .gallery h2 {
-  text-align: center;
-  margin-bottom: 20px;
+text-align: center;
+margin-bottom: 20px;
 }
 
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 30px;
 }
 
 .gallery-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 10px;
-  transition: transform 0.3s;
+width: 100%;
+height: auto;
+display: block;
+border-radius: 10px;
+transition: transform 0.3s;
 }
 
 .gallery-item img:hover {
-  transform: scale(1.05);
+transform: scale(1.05);
 }
+
 
 section {
   padding: 4rem 0;
   text-align: center;
 }
-
-#features {
-  padding: 40px;
-  margin: 70px;
+#features{
+padding: 40px;
+margin: 70px;
 }
-
-#features li {
-  margin: 30px;
+#features li{
+margin: 30px;
 }
-
 .about {
   padding: 40px;
   margin: 50px;
@@ -162,6 +159,7 @@ section {
 }
 
 .service-cards {
+
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -169,7 +167,7 @@ section {
 }
 
 .card {
-  background: rgba(9, 34, 80, 0.7);
+  background: rgb(9, 34, 80,0.7);
   padding: 2rem;
   border-radius: 5px;
   width: 200px;
@@ -181,10 +179,9 @@ section {
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
 }
 
-.card h3 {
-  font-size: 1rem;
+.card h3{
+font-size: 1rem;
 }
-
 .contact form {
   display: flex;
   flex-direction: column;
@@ -224,162 +221,21 @@ footer {
 footer p {
   margin: 0;
 }
-
 .socials {
   list-style-type: none;
   padding: 0;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-}
-
+ 
+}    
 .socials li {
-  display: inline-block;
+  display:inline-block; 
   margin: 15px;
+  
+  
 }
-
-.socials img {
-  width: 35px;
-}
-
-/* Media Queries */
-@media (max-width: 1024px) {
-  .nav-links {
-    flex-direction: column;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
-    top: 0;
-    left: -100%;
-    transition: 0.3s;
-  }
-
-  .nav-links.active {
-    left: 0;
-  }
-
-  .nav-links li {
-    margin: 0;
-    padding: 15px;
-  }
-
-  .aurora h1 {
-    font-size: 1.5rem;
-  }
-
-  .aurora p {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
-    top: 0;
-    left: -100%;
-    transition: 0.3s;
-  }
-
-  .nav-links.active {
-    left: 0;
-  }
-
-  .nav-links li {
-    margin: 0;
-    padding: 15px;
-  }
-
-  .aurora h1 {
-    font-size: 1.5rem;
-  }
-
-  .aurora p {
-    font-size: 0.9rem;
-  }
-
-  .service-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    width: 90%;
-  }
-}
-
-@media (max-width: 480px) {
-  .logo {
-    font-size: 1.2rem;
-  }
-
-  .aurora h1 {
-    font-size: 1.2rem;
-  }
-
-  .aurora p {
-    font-size: 0.8rem;
-  }
-
-  .btn {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .contact input, .contact textarea {
-    width: 90%;
-  }
-}
-.menu-toggle {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.menu-toggle .bar {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 4px 0;
-}
-
-/* Media Queries */
-@media (max-width: 1024px) {
-  .nav-links {
-    flex-direction: column;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
-    top: 0;
-    left: -100%;
-    transition: left 0.3s ease-in-out;
-  }
-
-  .nav-links.active {
-    left: 0;
-  }
-
-  .nav-links li {
-    margin: 0;
-    padding: 15px;
-  }
-
-  .aurora h1 {
-    font-size: 1.5rem;
-  }
-
-  .aurora p {
-    font-size: 0.9rem;
-  }
-
-  .menu-toggle {
-    display: flex;
-  }
+.socials img {    width: 35px;
 }
 
 @media (max-width: 768px) {
